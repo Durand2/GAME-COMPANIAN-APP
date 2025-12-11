@@ -6,7 +6,7 @@ function Generate_Quest(){
       "Code the next MMO triple a quality in 2 days"
     ]
 
-    const randomQuest = quests[Math.floor(Math.random() * quests.length)];
+    const randomQuest = quests[Math,floor(Math.random() * quests.length)];
     document.getElementById("quest-output").innerText = randomeQuest;
 
 }
