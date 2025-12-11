@@ -1,5 +1,51 @@
 body{
 
 font-family: fantasy,sans-serif;
+background-color: darkviolet;
+color: white;
+padding: 20px;
 
+}
+
+h1,h2{
+
+    color: black;
+
+}
+
+.intro{
+
+    margin-bottom: 15px;
+    font-size: 18px;
+
+}
+
+section{
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #333;
+
+}
+
+button{
+    background-color: aqua;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+button:hover  {
+    background-color:aqua;
+}
+
+#quest-output {
+    margin-top: 15px;
+    font-style: italic;
+    color: white;
 }
