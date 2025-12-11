@@ -16,7 +16,7 @@ async function generateAIQuest() {
     document.getElementById("ai-output").innerText = "Generate quest..."
 
     //using a public API as a stand-in for AI test
-    const response = await fetch("https://api.cucknorris.io/jokes/random");
+    const response = await fetch("https://api.cucknorris.io/https://official-joke-api.appspot.com/random_joke/random");
     const data = await response.json();
 
     //simlating AI quest test
